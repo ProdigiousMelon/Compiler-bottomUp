@@ -1,0 +1,21 @@
+int main()
+{
+	int old;
+	int current;
+	int next;
+	
+	int max;
+
+	old = 1;
+	current = 1;
+
+	max = 21;
+
+	while (current < 21)
+	{
+		write(current);
+		next = current + old;
+		old = current;
+		current = next;
+	}
+}

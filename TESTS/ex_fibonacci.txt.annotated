@@ -1,0 +1,85 @@
+{
+	int old; // level:0  disp:3 
+	int current; // level:0  disp:4
+	int next; // level:0  disp:5
+	int max;    // level:0  disp:6
+		 // Prog varlen:4 addr:4 
+
+	old = 1; 
+                 // I_Variable level:0  disp:3 
+                 // I_Constant 1
+                 // I_Assign 1
+	current = 1;
+                 // I_Variable level:0  disp:4 
+                 // I_Constant 1
+                 // I_Assign 1
+
+	max = 21;
+                 // I_Variable level:0  disp:6 
+                 // I_Constant 21
+                 // I_Assign 1
+
+L0:	while (current <= 21)
+                // I_Variable lev:0 disp:4
+                // I_Value
+                // I_Constant value:21
+                // I_Less
+                // I_Variable lev:0 disp:4
+                // I_Value
+                // I_Constant value:21
+                // I_Equal
+                // Or
+                // Jmp_if_True to: L1
+                // Jmp to:L2
+
+	{
+L1:		write(current);
+		next = current + old;
+		old = current;
+		current = next;
+               //  Jmp to:L0
+	}
+L2: }
+               //  EndProg
+
+0001 Prog varlen:4 addr:4
+0004 I_Variable lev:0 disp:3
+0007 I_Constant value:1
+0009 I_Assign words:1
+0011 I_Variable lev:0 disp:4
+0014 I_Constant value:1
+0016 I_Assign words:1
+0018 I_Variable lev:0 disp:6
+0021 I_Constant value:21
+0023 I_Assign words:1
+0025 I_Variable lev:0 disp:4
+0028 I_Value
+0029 I_Constant value:21
+0031 I_Less
+0032 I_Variable lev:0 disp:4
+0035 I_Value
+0036 I_Constant value:21
+0038 I_Equal
+0039 Or
+0040 Jmp_if_True to:44
+0042 Jmp to:84
+0044 I_Variable lev:0 disp:4
+0047 I_Value
+0048 I_Write words:1
+0050 I_Variable lev:0 disp:5
+0053 I_Variable lev:0 disp:4
+0056 I_Value
+0057 I_Variable lev:0 disp:3
+0060 I_Value
+0061 I_Add
+0062 I_Assign words:1
+0064 I_Variable lev:0 disp:3
+0067 I_Variable lev:0 disp:4
+0070 I_Value
+0071 I_Assign words:1
+0073 I_Variable lev:0 disp:4
+0076 I_Variable lev:0 disp:5
+0079 I_Value
+0080 I_Assign words:1
+0082 Jmp to:25
+0084 EndProg

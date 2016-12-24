@@ -1,0 +1,209 @@
+0001 Prog varlen:0 addr:4
+0004 Jmp to:53
+0006 I_Variable lev:0 disp:-1
+0009 I_Value
+0010 I_Constant value:51198
+0012 Swap
+0013 I_Assign  words:1
+0015 I_Constant value:51198
+0017 I_Value
+0018 I_Constant value:51198
+0020 I_Value
+0021 I_Value
+0022 I_Constant value:51198
+0024 Swap
+0025 I_Assign  words:1
+0027 I_Constant value:51198
+0029 I_Value
+0030 I_Constant value:51198
+0032 I_Value
+0033 Jr_if_False to:9
+0035 C_Write chars:1
+0037 I_Constant value:1
+0039 I_Add
+0040 Jr by:-30
+0042 EndPProc args:1
+0044 I_Variable lev:0 disp:-1
+0047 I_Value
+0048 I_Write words:1
+0050 EndPProc args:1
+0052 EndProg
+0053 Call lev:0 addr:199
+0056 EndProg
+0057 Proc varlen:2 addr:60
+0060 I_Variable lev:0 disp:3
+0063 I_Constant value:51198
+0065 Swap
+0066 I_Assign  words:1
+0068 I_Constant value:51198
+0070 I_Value
+0071 I_Constant value:51198
+0073 I_Value
+0074 I_Constant value:0
+0076 I_Assign  words:1
+0078 I_Value
+0079 Jr_if_True by:2
+0081 I_Variable lev:0 disp:4
+0084 I_Constant value:51198
+0086 Swap
+0087 I_Assign  words:1
+0089 I_Constant value:51198
+0091 I_Value
+0092 I_Constant value:51198
+0094 I_Value
+0095 I_Constant value:1
+0097 I_Assign  words:1
+0099 I_Value
+0100 Jr_if_True by:2
+0102 I_Constant value:1
+0104 I_Variable lev:0 disp:-1
+0107 I_Value
+0108 I_Variable lev:0 disp:3
+0111 I_Value
+0112 I_Subtract
+0113 I_Less
+0114 Jr_if_False to:71
+0116 I_Variable lev:0 disp:4
+0119 I_Constant value:51198
+0121 Swap
+0122 I_Assign  words:1
+0124 I_Constant value:51198
+0126 I_Value
+0127 I_Constant value:51198
+0129 I_Value
+0130 I_Constant value:0
+0132 I_Variable lev:0 disp:-1
+0135 I_Value
+0136 I_Constant value:1
+0138 I_Subtract
+0139 Call lev:1 addr:57
+0142 I_Constant value:0
+0144 I_Variable lev:0 disp:-1
+0147 I_Value
+0148 I_Constant value:2
+0150 I_Subtract
+0151 Call lev:1 addr:57
+0154 I_Add
+0155 I_Assign  words:1
+0157 I_Value
+0158 Jr_if_True by:2
+0160 I_Variable lev:0 disp:3
+0163 I_Constant value:51198
+0165 Swap
+0166 I_Assign  words:1
+0168 I_Constant value:51198
+0170 I_Value
+0171 I_Constant value:51198
+0173 I_Value
+0174 I_Variable lev:0 disp:-1
+0177 I_Value
+0178 I_Assign  words:1
+0180 I_Value
+0181 Jr_if_True by:2
+0183 Jr by:-81
+0185 I_Variable lev:0 disp:4
+0188 I_Value
+0189 I_Variable lev:0 disp:-2
+0192 Swap
+0193 I_Assign  words:1
+0195 EndPProc args:1
+0197 EndPProc args:1
+0199 Proc varlen:1 addr:202
+0202 I_Constant value:0
+0204 I_Constant value:335
+0206 Call lev:1 addr:6
+0209 Jr_if_True by:2
+0211 I_Variable lev:0 disp:3
+0214 I_Constant value:51198
+0216 Swap
+0217 I_Assign  words:1
+0219 I_Constant value:51198
+0221 I_Value
+0222 I_Constant value:51198
+0224 I_Value
+0225 I_Constant value:0
+0227 I_Assign  words:1
+0229 I_Value
+0230 Jr_if_True by:2
+0232 I_Variable lev:0 disp:3
+0235 I_Value
+0236 I_Constant value:13
+0238 I_Less
+0239 Jr_if_False to:84
+0241 I_Constant value:0
+0243 I_Constant value:354
+0245 Call lev:1 addr:6
+0248 Jr_if_True by:2
+0250 I_Constant value:0
+0252 I_Variable lev:0 disp:3
+0255 I_Value
+0256 Call lev:1 addr:44
+0259 Jr_if_True by:2
+0261 I_Constant value:0
+0263 I_Constant value:359
+0265 Call lev:1 addr:6
+0268 Jr_if_True by:2
+0270 I_Constant value:0
+0272 I_Constant value:0
+0274 I_Variable lev:0 disp:3
+0277 I_Value
+0278 Call lev:1 addr:57
+0281 Call lev:1 addr:44
+0284 Jr_if_True by:2
+0286 I_Constant value:0
+0288 I_Constant value:362
+0290 Call lev:1 addr:6
+0293 Jr_if_True by:2
+0295 I_Variable lev:0 disp:3
+0298 I_Constant value:51198
+0300 Swap
+0301 I_Assign  words:1
+0303 I_Constant value:51198
+0305 I_Value
+0306 I_Constant value:51198
+0308 I_Value
+0309 I_Variable lev:0 disp:3
+0312 I_Value
+0313 I_Constant value:1
+0315 I_Add
+0316 I_Assign  words:1
+0318 I_Value
+0319 Jr_if_True by:2
+0321 Jr by:-89
+0323 I_Constant value:0
+0325 I_Variable lev:0 disp:-1
+0328 Swap
+0329 I_Assign  words:1
+0331 EndPProc args:0
+0333 EndPProc args:0
+0335 DATA 70
+0336 DATA 105
+0337 DATA 98
+0338 DATA 111
+0339 DATA 110
+0340 DATA 97
+0341 DATA 99
+0342 DATA 99
+0343 DATA 105
+0344 DATA 32
+0345 DATA 110
+0346 DATA 117
+0347 DATA 109
+0348 DATA 98
+0349 DATA 101
+0350 DATA 114
+0351 DATA 115
+0352 EndProg
+0353 DATA 0
+0354 DATA 70
+0355 DATA 105
+0356 DATA 98
+0357 DATA 32
+0358 DATA 0
+0359 EndProc
+0360 Jmp_if_True to:0
+0362 R_Less
+0363 R_Less
+0364 R_Less
+0365 EndProg
+0366 DATA 0

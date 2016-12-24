@@ -1,0 +1,11 @@
+This program was a coloboration between Chad Stephenson and Byron Giles
+
+
+We were able to implement up to step 7 : this includes
+-getnum
+-if-then & if-then-else
+-for loop
+-optimizations
+-globals
+-and repeat until
+

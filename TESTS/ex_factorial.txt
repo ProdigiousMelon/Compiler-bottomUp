@@ -1,0 +1,19 @@
+{
+	int i;
+	int max;
+	int factorial;
+
+	i = 1;
+	factorial = 1;
+
+	max = 6;
+
+	while (i <= max)
+	{
+		factorial = factorial * i;
+		i = i + 1;
+
+		write(factorial);
+	}
+
+}
